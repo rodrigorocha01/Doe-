@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#celular{
+    width: 380px;
+    height: 410px;
+}
+#pCelular{
+    position: absolute;
+    top: 97px;
+    right: 200px;
+}
+
+header{   
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+      
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.Mobile{
+    font-family: cursive;
+    color: antiquewhite;
+    font-size: 120%;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+h1{
+    color: antiquewhite;
+    font-size: 160%;
+    font-family: 'Pacifico', cursive;
+}
+
+#iconesMobile img{
+    width: 25px;
+    height: 20px;
+}
+
+#iconesMobile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-inline-end: 30px;
+}
+
